@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0; 
+  }
+
+html, body{
+    height:100%
+}
+
+body{
+    background-image: url("/images/Screen\ Shot\ 2022-07-29\ at\ 10.57.32\ AM.png");
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    
+}
+
+h1{
+ font-family:cursive;
+ font-size: 4em;
+color: rgb(161, 81, 23);
+font:bold;
+text-align: center;
+-webkit-text-stroke: 0.2px #fff;
+}
+
+h2{
+    font-family:cursive;
+    font-size: 40px;   
+    color: rgb(165, 114, 48); 
+}
+
+
+a:hover{
+    color: white;
+}
+.resetBtn{
+    text-align: center;
+    
+}
+#reset{
+    background-color: #c1e1d0;
+    padding: 5px;
+    border-radius: 30px;
+      
+}
+#reset:hover{
+    color: white;
+}
+
+#auto-clciker-cost p {
+    color: rgb(165, 114, 48); 
+    
+}
+
+
+
+
+

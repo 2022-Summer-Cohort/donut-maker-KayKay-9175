@@ -4,10 +4,63 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/layout.css">
     <title>Donut Clicker</title>
   </head>
   <body>
-    <div class="container"></div>
-    <script src="./index.js"></script>
+    <div class="container">
+    <header id="nav">
+    <h1>Cinnabun Maker</h1>
+    <ul>
+      <li class="dropdown"><span>About Fitz The Baker</span>
+      <div class="dropdown-content"><p>Fitz The Baker has served this community for decades ever since he migrated from Germany to America in 1940. Help him continue his legacy in his retirement and keep making these delicious donuts!</p></div>
+      </li>
+      <li class="dropdown"><span>Cookie Clicker</span>
+      <div class="dropdown-content"><p><a href="https://cookie-clicker.co/" target="_blank">Play Cookie Clicker</a></p></div>
+      </li>
+      <li class="dropdown"><span>Contact the Creator</span>
+      <div class="dropdown-content">
+      <ul id="developer-info">
+        <li><a href="mailto:kellis152@gmail.com" target="_blank"><img src="/CSS//images/email.png" alt="email me"></a></li>
+        <li><a href="https://www.linkedin.com/in/kayleenellis/" target="_blank"><img src="/CSS/images/linkedin.png" alt="linked in profile"></a></li>
+        <li><a href="https://github.com/kayleenellis" target="_blank"><img src="/CSS//images/github.png" alt=""></a></li>
+      </ul>
+      </div>
+      </li>
+    </ul>
+
+    </header>
+     <div class="cinnabun-counter">
+       <h2>Click on the bun to start making tasty cinnabuns!</h2>
+       <p>You have made <span id="counter">0</span> cinnabuns.</p>
+        <p>Currently making <span id="click-value">1</span> cinnabuns per click!</p>
+        <img src="/images/Screen Shot 2022-07-29 at 2.32.58 PM.png" alt="cinnabun" id="clicker">
+    </div>
+
+  </div>
+  <section class="menu">
+    <div class="auto-clicker">
+      <p>Tired of clicking? Buy an Auto Clicker for <span id="auto-clicker-cost">100</span> donuts!</p>
+      <p>You have <span class="auto-clicker-count">0</span> Auto Clickers.</p>
+      <button type="submit" id="auto-clicker-button" disabled="disabled">Purchase Auto Clicker</button>
+      </div>        
+      <div class="resetBtn"><button type="submit" id="reset">Reset</button></div>
+
+
+    <div class="multiplier-section">
+      <p>Power up your clicks! Buy a multiplier for <span id="multiplier-cost">10</span> donuts!</p>
+      
+      <p>You have purchased <span class="multiplier">0</span> multipliers.</p>
+      <button type="submit" id="cinna-multiplier-button" disabled="disabled">Purchase Multiplier</button>
+    </div>
+  </section>
+  
+  <br>
+  <br>
+  </body>
+
+  
+    <script src="./app.js" type="module"></script>
   </body>
 </html>
